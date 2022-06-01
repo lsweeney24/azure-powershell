@@ -64,14 +64,15 @@ In this directory, run AutoRest:
 > see <https://aka.ms/autorest>
 
 ``` yaml
-branch: 0105ac02e25089e55a7d4126f8fd303f9415b115
+branch: 324a148497f28ef7588eee7bdb61dcd28b74f505
 require:
   - $(this-folder)/../readme.azure.noprofile.md
 # lock the commit
 input-file:
-  - $(repo)/specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/stable/2021-09-01/arcSettings.json
-  - $(repo)/specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/stable/2021-09-01/clusters.json
-  - $(repo)/specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/stable/2021-09-01/extensions.json
+  - $(repo)/specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/stable/2022-05-01/arcSettings.json
+  - $(repo)/specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/stable/2022-05-01/clusters.json
+  - $(repo)/specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/stable/2022-05-01/extensions.json
+  - $(repo)/specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/stable/2022-05-01/operations.json
 
 module-version: 1.1.0
 title: StackHCI
